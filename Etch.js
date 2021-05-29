@@ -1,10 +1,10 @@
 let gridSize = 16;
 
 let container = document.getElementById("container");
-container.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`;
-container.style.gridTemplateRows = `repeat(${gridSize}, 1fr)`;
 
 function addBlocks(gridSize){
+    container.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`;
+    container.style.gridTemplateRows = `repeat(${gridSize}, 1fr)`;
     for (i = 0; i < gridSize*gridSize; i++){
         let block = document.createElement("div");
         block.setAttribute("class","block");
@@ -28,7 +28,12 @@ function resetColor(){
 
 function changeSize(){
     removeBlocks(container);
-    gridSize = prompt("New Size (1-100)");
+    gridSize = prompt("New Size? (1-100)");
+    if (gridSize > 100 || gridSize < 1){
+        while (gridSize > 100 || gridSize < 1){
+            gridSize = prompt("New Size? (1-100)");
+        }
+    }
     addBlocks(gridSize);
 }
 
