@@ -1,4 +1,4 @@
-let gridSize = 16;
+let gridSize = 64;
 
 let container = document.getElementById("container");
 

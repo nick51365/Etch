@@ -20,12 +20,11 @@ body{
     margin-top: 5%;
     box-shadow: 5px 5px 20px rgb(231, 58, 139);
 }
-#resetButton{
-    display:block;
-    margin: auto;
-    margin-top: 5%;
-    height: 3%;
-    width: 10%;
+.button{
+height: 4vh;
+width: 10vw;
+margin-left: 5%;
+margin-right:5%;
 }
 h1{
     text-align: center;
@@ -33,5 +32,9 @@ h1{
     font-size: 375%;
     color: white;
     text-shadow: 5px 5px 12px rgb(231, 58, 139)
-
+}
+.buttonWrapper{
+display: flex;
+justify-content: center;
+    
 }
