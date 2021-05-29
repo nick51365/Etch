@@ -1,28 +1,37 @@
 body{
     height: 100vh; 
-    background-image:linear-gradient(to bottom right,red, yellow);
+    background-image:url(https://i.pinimg.com/originals/66/be/79/66be7922881ea8c3bcb1bd40ba12a797.jpg);
+    background-size: 100vw 100vh;
 }
-
 .block{
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.041);
     height: 5px;
     width: 5px;
 }
 .container{
     display: grid;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
     height: 50vw;
     width: 50vw;
+    max-height: 50vh;
+    max-width: 50vh;
     margin: auto;
     margin-top: 5%;
-    box-shadow: 7px 7px 3px rgb(231, 58, 139)
+    box-shadow: 5px 5px 20px rgb(231, 58, 139);
 }
 #resetButton{
     display:block;
     margin: auto;
     margin-top: 5%;
+    height: 3%;
+    width: 10%;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 375%;
+    color: white;
+    text-shadow: 5px 5px 12px rgb(231, 58, 139)
+
 }
