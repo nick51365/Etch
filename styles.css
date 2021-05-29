@@ -1,0 +1,29 @@
+body{
+    height: 80vh;
+    width: 80vw;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(135, 135, 231);
+}
+
+.block{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 5px;
+    width: 5px;
+}
+.container{
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+#resetButton{
+    display:block;
+    margin: auto;
+}
