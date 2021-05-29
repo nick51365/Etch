@@ -18,8 +18,9 @@ function addBlocks(gridSize){
 document.onload = addBlocks(gridSize);
 
 const resetButton = document.getElementById("resetButton");
+const resizeButton = document.getElementById("resizeButton");
 resetButton.addEventListener("click", () => resetColor());
-resetButton.addEventListener("click", () => changeSize());
+resizeButton.addEventListener("click", () => changeSize());
 
 function resetColor(){
     const blocks = document.querySelectorAll("div.block");

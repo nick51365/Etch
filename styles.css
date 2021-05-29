@@ -21,17 +21,21 @@ body{
     box-shadow: 5px 5px 20px rgb(231, 58, 139);
 }
 .button{
+font-family: FreeMono;
 height: 4vh;
 width: 10vw;
 margin-left: 5%;
 margin-right:5%;
+background-color: rgba(231, 58, 139, 80%)
 }
 h1{
+    font-family:FreeMono;
     text-align: center;
     margin-top: 5%;
     font-size: 375%;
     color: white;
     text-shadow: 5px 5px 12px rgb(231, 58, 139)
+    
 }
 .buttonWrapper{
 display: flex;
