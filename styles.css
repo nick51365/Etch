@@ -22,11 +22,13 @@ body{
 }
 .button{
 font-family: FreeMono;
+font-size:110%;
+color:rgb(58, 168, 231);
 height: 4vh;
 width: 10vw;
 margin-left: 5%;
 margin-right:5%;
-background-color: rgba(231, 58, 139, 80%)
+background-color: rgba(182, 58, 231, 0.795);
 }
 h1{
     font-family:FreeMono;

@@ -11,7 +11,7 @@ function addBlocks(gridSize){
         block.style.height = "100%";
         block.style.width = "100%";
         block.style.backgroundColor = "white";
-        block.addEventListener("mouseenter",() => block.style.backgroundColor = "purple");
+        block.addEventListener("mouseenter",() => block.style.backgroundColor = "rgba(160, 58, 260, 0.9)");
         container.appendChild(block);
     }
 };
